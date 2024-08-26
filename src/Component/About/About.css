@@ -1,0 +1,24 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.about-left{
+    flex-basis: 40%;
+}
+
+.about-right{
+     flex-basis: 56%;
+}
+
+.About_img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.about h2{
+    font-weight: 600px;
+}

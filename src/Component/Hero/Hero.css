@@ -1,0 +1,135 @@
+.Hero{
+    width: 100%;
+    min-height: 100vh; 
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assests/image_6.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center; 
+    /* padding-left: 30%; */
+    /* padding-right: 30%;
+    padding-top: 50%; */
+    align-items: center 
+}
+
+.Hero-text{
+    text-align: center;
+    max-width: 800px;
+}
+
+.Hero-text h1{
+    font-size: 30px;
+    font-weight: 60;
+
+}
+
+.Hero-text p {
+    max-width: 700px;
+    margin: 10px auto 20 px;
+    line-height: 1.4;
+}
+
+.btn{
+    background: #FFF;
+    color: #212121;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+ .btn img{
+    width: 20px;
+    margin-left: 10px;
+ }
+ /* From Uiverse.io by SyedShahzaib7 */ 
+.wrapper {
+    width: 100%;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+  .form-login {
+    font-size: 36px;
+    text-align: justify;
+  }
+  .wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+  }
+  .input-box input::placeholder {
+    color: #fff;
+  }
+  
+  .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 0 15px;
+  }
+  .remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+  }
+  .remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+  .wrapper .btn {
+    width: 150px;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-right: auto;
+  }
+  .wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  .register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: justify
+  }
+  .register-link p a:hover {
+    text-decoration: underline;
+    text-align: justify
+  }
+  
