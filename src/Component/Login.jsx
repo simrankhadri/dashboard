@@ -1,11 +1,16 @@
 import React from "react";
 import Arrow from "./../assests/Arrow.png";
 import Navbar from "./Navbar/Navbar";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
+  const goToStudentDashboard = () => {
+    navigate("/dashboard")
+  }
   return (
     <>
-    <Navbar />
+      <Navbar />
       <div className="Hero container">
         <div className="Hero-text">
           <div>
@@ -37,7 +42,7 @@ const Login = () => {
                 </label>
                 <a href="#">Forgot Password</a>
               </div>
-              <button className="btn" type="submit">
+              <button onClick={goToStudentDashboard} className="btn" type="submit">
                 Login
               </button>
               <div className="register-link">
