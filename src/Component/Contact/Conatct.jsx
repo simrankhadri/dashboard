@@ -6,6 +6,7 @@ import location from '../../assests/location.png'
 import submit from '../../assests/submit.png'
 import Footer from '../Footer/Footer'
 import Hero from '../Hero/Hero'
+import Navbar from '../Navbar/Navbar'
 
 const Contact = () => {
 
@@ -63,12 +64,13 @@ const Contact = () => {
                     Write your message here
                 </label>
                 <textarea name='message'  rows='6' placeholder='Enter your message' required></textarea>
-                <button type='Submit' className='btn dark-btn' > Submit Now <img src={submit} alt="" /></button>
+                <button type='Submit' className='contact_us_btn' > Submit Now <img className='contact_us_btn_icon' src={submit} alt="" /></button>
             </form>
             <span> {result} </span>
         </div>
         </div>
         <Footer/>
+        <Navbar/>
         </>
   )
 }
